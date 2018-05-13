@@ -1,0 +1,419 @@
+body {
+	margin:0;
+	padding:0;
+	background-image: url("img/wood.jpg");
+	font-family: Arial, sans-serif;
+}
+
+.shadow {
+    max-width: 878px;
+    margin: 0 auto;
+    box-shadow: 0 0 0 8px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.wrapper {
+	max-width:878px;
+	margin:0 auto;
+	min-height:inherit;
+	background-color:#fff;
+    border: 1px solid #fff;
+}
+
+/*шапка*/
+.header .wrapper{
+    border-radius:5px 5px 0 0;
+}
+
+.header {
+	min-height:106px;
+	margin-top: 70px;
+}
+
+.menu__checkbox, .menu-label ,.nav__checkbox{
+    display: none;
+}
+.line:after, .footer-2:before  {
+    content:"";
+    display: block;
+    max-width:835px;
+    height: 1px;
+    background:#c1c1c1;
+    margin: -1px auto 0;
+}
+.logo {
+	max-width:400px;
+	margin-left:23px;
+	float: left;
+	margin-top: 32px;
+}
+
+.log {
+    margin-right: 10px;
+}
+
+.headmenu {
+	float:right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.menu li {
+	display: inline-block;
+    margin-right: 20px;
+}
+
+ .menu > li > a {
+	 color:#c1c1c1;
+	 font-size:14px;
+ }
+ .menu > li > a:hover,
+ .navigation > li > a:hover
+ {
+     color: #916a44;
+ }
+
+ /*верхний подвал*/
+.footer {
+	min-height:106px;
+}
+
+.footer .wrapper p {
+    font-size: 14px;
+    color:#bdbdbd;
+    margin:0px 23px;
+    line-height: 30px;
+    padding-top: 23px;
+}
+
+.footer .wrapper a {
+    color:  #916a44;
+    font-weight: bold;
+}
+/*боковая колонка*/
+.sidebar {
+     min-height:606px;
+     overflow: hidden;
+     margin: 0;
+}
+
+.twitter {
+    padding-top: 20px;
+    font-size: 12px;
+    margin-right:25px;
+    position: relative;
+}
+
+.twit-text {
+    background: #f2f2f2;
+    border-radius: 3px;
+}
+
+.twit-text img {
+    position: absolute;
+    top:99%;
+    right: 20%;
+}
+.twit-text p {
+    margin: 0;
+    padding: 20px 15px;
+    line-height: 20px;
+}
+.twitter a, .twit-text p, .contact li, .navigation> li> a, .text a {
+    color: #939393;
+}
+
+.twit-img {
+    display: inline-block;
+    padding-top: 15px;
+    position: absolute;
+    right: -10px;
+}
+
+.twit-img img {
+    vertical-align: middle;
+}
+
+.sidemenu {
+    margin-top: 60px;
+}
+
+.contacts {
+    margin-top: 10px;
+}
+.nav-label, .contacts p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.navigation, .contact {
+    padding: 0;
+    margin:0;
+}
+
+.navigation li, .contact li{
+    list-style:none;
+    font-size: 12px;
+    padding: 9px 0;
+}
+
+.navigation >li {
+    border-bottom: 1px solid #c1c1c1;
+    width: 90%;
+}
+
+.navigation li:first-child {
+    border-top: 1px solid #c1c1c1;
+    margin-top: 10px;
+}
+.navigation> li> a , .twitter a, .text a, .link a,
+.menu > li > a, .footer .wrapper a{
+    text-decoration: none;
+}
+/*подвал*/
+.footer-2 {
+	min-height:83px;
+	clear:right;
+	margin-bottom: 70px;
+    font-size:12px;
+    color: #939393;
+}
+
+.footer-2 .wrapper{
+    border-radius: 0 0 5px 5px;
+}
+
+.copyright {
+    margin:0 30px 0 23px;
+}
+
+.facebook, .twit, .footer-2 p, .copyright, .twitter a    {
+    display: inline-block;
+}
+
+.facebook, .twit {
+    margin:0 15px;
+}
+.footer-2 img {
+    vertical-align: middle;
+    margin-right:10px ;
+}
+
+.foot-social {
+    margin-top: 20px;
+}
+/*контент*/
+.content {
+    min-height:606px;
+    width:72%;
+    float:left;
+    position: relative;
+    font-size: 14px;
+}
+
+.box {
+	width: calc(50% - 26px);
+	min-height:240px;
+	display: inline-block;
+	margin:10px 13px;
+	font-size: 14px;
+}
+
+.images {
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.text p {
+    color:#bdbdbd;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.container {
+	min-height:530px;
+	overflow: hidden;
+	font-size:0;
+	padding-top: 10px;
+    margin: 0 10px;
+}
+
+.link-box {
+    min-height: 40px;
+	width:40%;
+	position: absolute;
+	right:0%;
+	bottom:0%;
+    overflow: hidden;
+}
+
+.link {
+	display: inline-block;
+	width: calc(50% - 28px);
+	min-height: 30px;
+	margin:10px;
+	background:#6d9b2d;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+.link a {
+    color: #fff;
+    display:block;
+}
+
+@media screen and (max-width:880px) {
+    .logo {
+        float:none;
+        margin: 30px auto;
+        max-width: 330px;
+    }
+
+    .headmenu {
+        float: none;
+        text-align: center;
+    }
+
+    .copyright {
+        display: block;
+        margin-left:15px;
+    }
+
+    .foot-social {
+        margin: 10px auto;
+    }
+
+}
+
+@media screen and (max-width:760px ) {
+    .header .wrapper, .sidebar {
+        position: relative;
+    }
+
+   .menu__checkbox:checked ~.headmenu,
+   .nav__checkbox:checked ~.navigation
+   {
+       display: block;
+   }
+
+    .menu >li, .navigation>li{
+        display: block;
+        list-style: none;
+        border-bottom: 1px solid #fff;
+        margin:0 auto;
+    }
+
+    .menu> li>a, .navigation> li> a {
+        display: block;
+        color: #fff;
+        margin: 0 auto;
+    }
+
+    .menu> li>a {
+        padding: 5px 0;
+    }
+
+    .menu {
+        width: 100%;
+        opacity: 0.9;
+        top:100%;
+        right: 0;
+    }
+
+    .headmenu{
+        margin: 0;
+    }
+
+    .menu-label, .nav-label{
+        display: block;
+        text-align: center;
+        color:#916a44;
+        font-weight:bold;
+    }
+
+    .navigation, .menu {
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        z-index: 10;
+        background: #c1c1c1;
+    }
+
+    .navigation {
+        width: 100%;
+        opacity: 1.0;
+        bottom:100%;
+        left:0;
+        text-align: center;
+    }
+
+    .sidebar{
+        min-height:auto;
+        overflow: visible;
+    }
+
+    .content {
+        float:none;
+        width: 100%;
+        min-height: auto;
+    }
+
+    .link-box {
+        position: static;
+        margin:0 auto;
+    }
+    .sidemenu p, .twitter, .headmenu, .navigation{
+        display: none;
+    }
+
+    .contacts {
+        margin-left:15px;
+    }
+}
+
+@media screen and (max-width:545px ) {
+    .box {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .container {
+        margin: 0 20px;
+    }
+
+    .link {
+        display: block;
+        width: 80%;
+    }
+    .header, .footer-2 {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:422px ) {
+
+    .facebook p, .twit p{
+        display: none;
+    }
+}
+@media screen and (max-width:320px ) {
+    .wood{
+        width: 100%;
+    }
+    .logo{
+        text-align: center;
+    }
+}
